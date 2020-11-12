@@ -199,7 +199,7 @@ void display(struct stack* ptr) {
 
    if(flag==1 && temp!=head && temp->next!=NULL)
     {
-      temp->previous->next=temp->next;
+      temp->previous->next=temp->next
       temp->next->previous=temp->previous;
       printf("Your contact has been deleted");
     }
